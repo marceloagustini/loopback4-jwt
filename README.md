@@ -1,8 +1,4 @@
-# @loopback/example-todo-jwt
-
-This is a modified LoopBack 4
-[Todo application](https://github.com/strongloop/loopback-next/tree/master/examples/todo)
-with JWT authentication, using the `@loopback/authentication-jwt` extension.
+# @loopback4/example-todo-jwt with database [Postgres]
 
 ## Overview
 
@@ -55,19 +51,9 @@ http://localhost:3000/explorer. You’ll see the 3 new endpoints under
 3. Get all todos using `GET /todos` API You should be able to call this API
    successfully.
 
-## Contributions
-
-- [Guidelines](https://github.com/strongloop/loopback-next/blob/master/docs/CONTRIBUTING.md)
-- [Join the team](https://github.com/strongloop/loopback-next/issues/110)
-
 ## Tests
 
 Run `npm test` from the root folder.
-
-## Contributors
-
-See
-[all contributors](https://github.com/strongloop/loopback-next/graphs/contributors).
 
 ## License
 
