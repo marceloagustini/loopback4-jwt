@@ -1,8 +1,4 @@
-# @loopback/example-todo-jwt
-
-This is a modified LoopBack 4
-[Todo application](https://github.com/strongloop/loopback-next/tree/master/examples/todo)
-with JWT authentication, using the `@loopback/authentication-jwt` extension.
+# @loopback4/example-todo-jwt with database [MongoDB]
 
 ## Overview
 
