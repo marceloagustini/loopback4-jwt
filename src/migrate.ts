@@ -3,15 +3,15 @@
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
-import {TodoListApplication} from './application';
+import { TodoListApplication } from './application';
 
 export async function migrate(args: string[]) {
-  const existingSchema = args.includes('--rebuild') ? 'drop' : 'alter';
+  const existingSchema = args.includes('--rebuild') ? 'create' : 'drop';
   console.log('Migrating schemas (%s existing schema)', existingSchema);
 
   const app = new TodoListApplication();
   await app.boot();
-  await app.migrateSchema({existingSchema});
+  await app.migrateSchema();
 
   // Connectors usually keep a pool of opened connections,
   // this keeps the process running even after all work is done.

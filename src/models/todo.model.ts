@@ -2,8 +2,9 @@
 // Node module: @loopback/example-todo-jwt
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
+// update to Marcelo Agustini
 
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
 @model()
 export class Todo extends Entity {
@@ -31,10 +32,10 @@ export class Todo extends Entity {
   isComplete?: boolean;
 
   @property({
-    type: 'any',
+    type: 'string',
   })
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tag?: any;
+  tag?: string;
 
   constructor(data?: Partial<Todo>) {
     super(data);

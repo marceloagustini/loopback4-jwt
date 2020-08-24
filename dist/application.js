@@ -40,7 +40,7 @@ class TodoListApplication extends boot_1.BootMixin(service_proxy_1.ServiceMixin(
         // Mount jwt component
         this.component(authentication_jwt_1.JWTAuthenticationComponent);
         // Bind datasource
-        this.dataSource(datasources_1.DbDataSource, authentication_jwt_1.UserServiceBindings.DATASOURCE_NAME);
+        this.dataSource(datasources_1.PostgresDataSource, authentication_jwt_1.UserServiceBindings.DATASOURCE_NAME);
         // ------------- END OF SNIPPET -------------
         //new
         this.bind(authentication_jwt_1.UserServiceBindings.USER_SERVICE).toClass(authentication_jwt_1.MyUserService);

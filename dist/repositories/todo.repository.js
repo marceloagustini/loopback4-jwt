@@ -15,7 +15,7 @@ let TodoRepository = class TodoRepository extends repository_1.DefaultCrudReposi
     }
 };
 TodoRepository = tslib_1.__decorate([
-    tslib_1.__param(0, core_1.inject('datasources.db')),
+    tslib_1.__param(0, core_1.inject('datasources.postgres')),
     tslib_1.__metadata("design:paramtypes", [repository_1.juggler.DataSource])
 ], TodoRepository);
 exports.TodoRepository = TodoRepository;

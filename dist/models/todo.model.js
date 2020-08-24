@@ -3,6 +3,7 @@
 // Node module: @loopback/example-todo-jwt
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
+// update to Marcelo Agustini
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Todo = void 0;
 const tslib_1 = require("tslib");
@@ -41,9 +42,9 @@ tslib_1.__decorate([
 ], Todo.prototype, "isComplete", void 0);
 tslib_1.__decorate([
     repository_1.property({
-        type: 'any',
+        type: 'string',
     }),
-    tslib_1.__metadata("design:type", Object)
+    tslib_1.__metadata("design:type", String)
 ], Todo.prototype, "tag", void 0);
 Todo = tslib_1.__decorate([
     repository_1.model(),

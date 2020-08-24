@@ -1,10 +1,10 @@
-import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
-import {juggler} from '@loopback/repository';
+import { inject, lifeCycleObserver, LifeCycleObserver } from '@loopback/core';
+import { juggler } from '@loopback/repository';
 
 const config = {
   name: 'postgres',
   connector: 'postgresql',
-  url: 'localhost',
+  url: "postgres://postgres:postgres@localhost:5432/examplejwt",
   host: 'localhost',
   port: 5432,
   user: 'postgres',
@@ -23,7 +23,7 @@ export class PostgresDataSource extends juggler.DataSource
   static readonly defaultConfig = config;
 
   constructor(
-    @inject('datasources.config.postgres', {optional: true})
+    @inject('datasources.config.postgres', { optional: true })
     dsConfig: object = config,
   ) {
     super(dsConfig);

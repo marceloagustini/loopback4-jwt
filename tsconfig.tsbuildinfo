@@ -1826,6 +1826,11 @@
         "signature": "5a70edee273369556aaa889ccbc15754792c5bf819fc668ad2c958ada875fca7",
         "affectsGlobalScope": false
       },
+      "./node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/index.d.ts": {
+        "version": "be4dbc47afac5f25848839f43d0b6e3438b7ec739b97e453c8cf71c9123b01b3",
+        "signature": "be4dbc47afac5f25848839f43d0b6e3438b7ec739b97e453c8cf71c9123b01b3",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@loopback/rest-explorer/dist/rest-explorer.types.d.ts": {
         "version": "40aef4a68de5489a9c66bb31603e453ba26ea4070d4d0f8eb6db65dc3aac0f83",
         "signature": "40aef4a68de5489a9c66bb31603e453ba26ea4070d4d0f8eb6db65dc3aac0f83",
@@ -1846,38 +1851,43 @@
         "signature": "f4da102653f8ce4ffda0b1c25f1240ae216e19df10fd32e747fc46b3fcd4642c",
         "affectsGlobalScope": false
       },
-      "./src/datasources/db.datasource.ts": {
-        "version": "547ffc25480644c0a343de49f579bc6e8bcd5e74bef71f7e25534936e92427b1",
-        "signature": "e99a84202b6dea8a553b494f00da02865c7035c6f9fec96890dfe603b291a225",
+      "./src/datasources/postgres.datasource.ts": {
+        "version": "314cbf56db2952420ca80306c732ac982c3b644ad46cbc9a0a79e60c565375d2",
+        "signature": "50bcaf2120b86ad1fb1cc970f3334a67bcd84954cb3ae6b5164c091385091ebf",
         "affectsGlobalScope": false
       },
       "./src/datasources/index.ts": {
-        "version": "30844485e4c1c46bbbc5514d00d3c16c02e9e056291e71fe3771b24f8a28c977",
-        "signature": "834b70c56280af742429c81a7c992c940426144605c9604c22ffd68a9c327619",
+        "version": "1966553709c65be9a274d037b91cefc5a95aeb3de3040b7cae2d7e90511a90c2",
+        "signature": "620014d4f16361d2f31645502b6912ac0cfd6267ee61d854b2f01a986a309390",
         "affectsGlobalScope": false
       },
       "./src/sequence.ts": {
-        "version": "7ef2da85ae7c4e918bd5bb2f3d1f1a0175c91f86cfa80c456da4e57cfa3111ec",
+        "version": "25834953559e9f5c966f7a4d79ea8c668a6f7c2c66e54ddee0e6d5d06a062efc",
         "signature": "4399c2b2ec8004633d4c5a6aca0d491f461af2631ba9157ea54a6b7b2993d0a6",
         "affectsGlobalScope": false
       },
       "./src/application.ts": {
-        "version": "dd941dac12d3c911434f62b368e30bd87814a21c475aa343cf13be9c9d7c0c48",
+        "version": "e62c7037cab3cb4917121d670a3a9e84619045930cfbc0c30e7a77b645bd28a6",
         "signature": "0e67b527250129ca3a73317da2ab9b39225f799425f6ac6730db7142506dfc97",
         "affectsGlobalScope": false
       },
       "./src/models/todo.model.ts": {
-        "version": "adac1705513ea1d0ae08274b0c48a83004a0f6ca9e178e748bb904a37231e489",
-        "signature": "d70b87c2d086c492a6ff758cf5f0ad5a4bbe3035c7cd489e7505d2e0e1c569ef",
+        "version": "6d9def81c11e2ef75afa35f8d028241b67b65107836257e4249edfd6b0e7cc08",
+        "signature": "bff0b768749c06e496b82af1dae1079a1ba037f5ff15d65f45565089d62156a6",
+        "affectsGlobalScope": false
+      },
+      "./src/models/customuser.model.ts": {
+        "version": "3affe95ad851646d9a3f665c83394d21ff88aec3c0f2e6f8027c4af0bb98dd05",
+        "signature": "c0bb65b74f985df893d0fad6a09b646689ec2af0b87b13cabd53c7e3b3c03038",
         "affectsGlobalScope": false
       },
       "./src/models/index.ts": {
-        "version": "3239a822ef0182547c65466b88b22f90330ae369ea8701e82486eed84cb2bb10",
-        "signature": "4bb30bc881aaa5f0532df9457e25909cb8c4c611ab304c0ddc13bb3cf4987284",
+        "version": "bfcef56f8fbcd351eae9db6db94b2a43d9506ffff5be624b55fc020c0e7556d6",
+        "signature": "796a86dd8f40dc74abdbd2a22fe9cc5ecc737e7b6a8950b44d148c356201eb2a",
         "affectsGlobalScope": false
       },
       "./src/repositories/todo.repository.ts": {
-        "version": "a7eae0183c8770100588c620afd96d33a22c937a4d5c960cc1063f23b9d2ed63",
+        "version": "087ddf81d0bd3f75ac8299bedd390e97f161d14a7b51e52bef64559e18104149",
         "signature": "810bfc0a2ecde6da201ba8caa408cae6e2553c1d7f61d0911f5f92da8e783723",
         "affectsGlobalScope": false
       },
@@ -1892,7 +1902,7 @@
         "affectsGlobalScope": false
       },
       "./src/migrate.ts": {
-        "version": "a8df9672e0e3eacc41e8847cc40544c73ecaf5b28ba0a81157791f95ca7506e7",
+        "version": "d30e97aa569ac97916644a04462832c9d500d4e4738a6c04188bb3d0c3c4d799",
         "signature": "d289609b56df6411204c89f5197dc2d4d19910336a10c86cd9b3af21b22e344d",
         "affectsGlobalScope": false
       },
@@ -3531,6 +3541,30 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/index.d.ts": [
+        "./node_modules/@loopback/openapi-v3/dist/index.d.ts",
+        "./node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
+        "./node_modules/@loopback/rest/dist/http-handler.d.ts",
+        "./node_modules/@loopback/rest/dist/keys.d.ts",
+        "./node_modules/@loopback/rest/dist/parse-json.d.ts",
+        "./node_modules/@loopback/rest/dist/parser.d.ts",
+        "./node_modules/@loopback/rest/dist/providers/index.d.ts",
+        "./node_modules/@loopback/rest/dist/request-context.d.ts",
+        "./node_modules/@loopback/rest/dist/rest-http-error.d.ts",
+        "./node_modules/@loopback/rest/dist/rest.application.d.ts",
+        "./node_modules/@loopback/rest/dist/rest.component.d.ts",
+        "./node_modules/@loopback/rest/dist/rest.server.d.ts",
+        "./node_modules/@loopback/rest/dist/router/index.d.ts",
+        "./node_modules/@loopback/rest/dist/sequence.d.ts",
+        "./node_modules/@loopback/rest/dist/spec-enhancers/info.spec-enhancer.d.ts",
+        "./node_modules/@loopback/rest/dist/types.d.ts",
+        "./node_modules/@loopback/rest/dist/validation/request-body.validator.d.ts",
+        "./node_modules/@loopback/rest/dist/writer.d.ts",
+        "./node_modules/@types/http-errors/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/strong-error-handler/index.d.ts"
+      ],
       "./node_modules/@loopback/rest/dist/body-parsers/body-parser.d.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/@loopback/openapi-v3/dist/index.d.ts",
@@ -5053,16 +5087,16 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./src/datasources/db.datasource.ts": [
+      "./src/datasources/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/datasources/postgres.datasource.ts"
+      ],
+      "./src/datasources/postgres.datasource.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
-      ],
-      "./src/datasources/index.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./src/datasources/db.datasource.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -5078,9 +5112,16 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/application.ts"
       ],
+      "./src/models/customuser.model.ts": [
+        "./node_modules/@loopback/authentication-jwt/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./src/models/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
+        "./src/models/customuser.model.ts",
         "./src/models/todo.model.ts"
       ],
       "./src/models/todo.model.ts": [
@@ -6476,6 +6517,30 @@
       "./node_modules/@loopback/rest-explorer/dist/rest-explorer.types.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/index.d.ts": [
+        "./node_modules/@loopback/openapi-v3/dist/index.d.ts",
+        "./node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
+        "./node_modules/@loopback/rest/dist/http-handler.d.ts",
+        "./node_modules/@loopback/rest/dist/keys.d.ts",
+        "./node_modules/@loopback/rest/dist/parse-json.d.ts",
+        "./node_modules/@loopback/rest/dist/parser.d.ts",
+        "./node_modules/@loopback/rest/dist/providers/index.d.ts",
+        "./node_modules/@loopback/rest/dist/request-context.d.ts",
+        "./node_modules/@loopback/rest/dist/rest-http-error.d.ts",
+        "./node_modules/@loopback/rest/dist/rest.application.d.ts",
+        "./node_modules/@loopback/rest/dist/rest.component.d.ts",
+        "./node_modules/@loopback/rest/dist/rest.server.d.ts",
+        "./node_modules/@loopback/rest/dist/router/index.d.ts",
+        "./node_modules/@loopback/rest/dist/sequence.d.ts",
+        "./node_modules/@loopback/rest/dist/spec-enhancers/info.spec-enhancer.d.ts",
+        "./node_modules/@loopback/rest/dist/types.d.ts",
+        "./node_modules/@loopback/rest/dist/validation/request-body.validator.d.ts",
+        "./node_modules/@loopback/rest/dist/writer.d.ts",
+        "./node_modules/@types/http-errors/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/strong-error-handler/index.d.ts"
       ],
       "./node_modules/@loopback/rest/dist/body-parsers/body-parser.d.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -7933,7 +7998,7 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./src/__tests__/acceptance/test-helper.ts": [
-        "../../packages/testlab/dist/index.d.ts",
+        "./node_modules/@loopback/testlab/dist/index.d.ts",
         "./src/index.ts"
       ],
       "./src/__tests__/helpers.ts": [
@@ -7951,43 +8016,48 @@
         "./src/controllers/user.controller.ts"
       ],
       "./src/controllers/todo.controller.ts": [
-        "../../packages/repository/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/models/index.ts",
         "./src/repositories/index.ts"
       ],
       "./src/controllers/user.controller.ts": [
-        "../../extensions/authentication-jwt/dist/index.d.ts",
-        "../../packages/authentication/dist/index.d.ts",
-        "../../packages/security/dist/index.d.ts"
-      ],
-      "./src/datasources/db.datasource.ts": [
-        "../../packages/repository/dist/index.d.ts"
+        "./node_modules/@loopback/authentication-jwt/dist/index.d.ts",
+        "./node_modules/@loopback/authentication/dist/index.d.ts",
+        "./node_modules/@loopback/security/dist/index.d.ts"
       ],
       "./src/datasources/index.ts": [
-        "./src/datasources/db.datasource.ts"
+        "./src/datasources/postgres.datasource.ts"
+      ],
+      "./src/datasources/postgres.datasource.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/index.ts": [
-        "../../packages/core/dist/index.d.ts",
-        "../../packages/rest/dist/index.d.ts",
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/rest/dist/index.d.ts",
         "./src/application.ts",
         "./src/models/index.ts",
         "./src/repositories/index.ts"
       ],
+      "./src/models/customuser.model.ts": [
+        "./node_modules/@loopback/authentication-jwt/dist/index.d.ts"
+      ],
       "./src/models/index.ts": [
+        "./src/models/customuser.model.ts",
         "./src/models/todo.model.ts"
       ],
       "./src/models/todo.model.ts": [
-        "../../packages/repository/dist/index.d.ts"
+        "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/repositories/index.ts": [
         "./src/repositories/todo.repository.ts"
       ],
       "./src/repositories/todo.repository.ts": [
-        "../../packages/repository/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/models/index.ts"
       ],
       "./src/sequence.ts": [
-        "../../packages/rest/dist/index.d.ts"
+        "./node_modules/@loopback/rest/dist/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -8183,6 +8253,7 @@
       "./node_modules/@loopback/rest-explorer/dist/rest-explorer.component.d.ts",
       "./node_modules/@loopback/rest-explorer/dist/rest-explorer.keys.d.ts",
       "./node_modules/@loopback/rest-explorer/dist/rest-explorer.types.d.ts",
+      "./node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/index.d.ts",
       "./node_modules/@loopback/rest/dist/body-parsers/body-parser.d.ts",
       "./node_modules/@loopback/rest/dist/body-parsers/body-parser.helpers.d.ts",
       "./node_modules/@loopback/rest/dist/body-parsers/body-parser.json.d.ts",
@@ -8409,10 +8480,11 @@
       "./src/controllers/index.ts",
       "./src/controllers/todo.controller.ts",
       "./src/controllers/user.controller.ts",
-      "./src/datasources/db.datasource.ts",
       "./src/datasources/index.ts",
+      "./src/datasources/postgres.datasource.ts",
       "./src/index.ts",
       "./src/migrate.ts",
+      "./src/models/customuser.model.ts",
       "./src/models/index.ts",
       "./src/models/todo.model.ts",
       "./src/openapi-spec.ts",

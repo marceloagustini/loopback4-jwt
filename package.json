@@ -7,7 +7,7 @@
   "engines": {
     "node": ">=10.16"
   },
-  "author": "IBM Corp.",
+  "author": "Marcelo Agustini And IBM Corp.",
   "copyright.owner": "IBM Corp.",
   "license": "MIT",
   "publishConfig": {
@@ -39,30 +39,31 @@
     "start": "node ."
   },
   "dependencies": {
-    "@loopback/authentication": "^4.2.9",
-    "@loopback/authentication-jwt": "^0.4.3",
-    "@loopback/boot": "^2.3.5",
-    "@loopback/core": "^2.9.1",
-    "@loopback/repository": "^2.9.0",
-    "@loopback/rest": "^5.2.0",
-    "@loopback/rest-explorer": "^2.2.6",
-    "@loopback/security": "^0.2.14",
-    "@loopback/service-proxy": "^2.3.4",
+    "@loopback/authentication": "^6.0.0",
+    "@loopback/authentication-jwt": "^0.5.1",
+    "@loopback/boot": "^2.5.0",
+    "@loopback/core": "^2.9.4",
+    "@loopback/repository": "^2.11.1",
+    "@loopback/rest": "^6.1.0",
+    "@loopback/rest-explorer": "^2.2.9",
+    "@loopback/security": "^0.2.17",
+    "@loopback/service-proxy": "^2.3.7",
     "@types/bcryptjs": "^2.4.2",
     "bcryptjs": "^2.4.3",
+    "loopback-connector-postgresql": "^5.0.2",
     "loopback-connector-rest": "^3.7.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@loopback/build": "^6.1.0",
-    "@loopback/eslint-config": "^8.0.3",
-    "@loopback/http-caching-proxy": "^2.1.9",
-    "@loopback/testlab": "^3.2.0",
+    "@loopback/build": "^6.2.1",
+    "@loopback/eslint-config": "^9.0.1",
+    "@loopback/http-caching-proxy": "^2.1.12",
+    "@loopback/testlab": "^3.2.3",
     "@types/lodash": "^4.14.159",
-    "@types/node": "^10.17.26",
-    "eslint": "^7.3.1",
-    "lodash": "^4.17.15",
-    "typescript": "~3.9.5"
+    "@types/node": "^10.17.28",
+    "eslint": "^7.7.0",
+    "lodash": "^4.17.20",
+    "typescript": "~3.9.7"
   },
   "keywords": [
     "loopback",
@@ -74,6 +75,5 @@
     "todo",
     "jwt",
     "authentication"
-  ],
-  "gitHead": "a056555744367da9caccb6be64095e27d2fe2e28"
+  ]
 }
