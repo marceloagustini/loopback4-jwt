@@ -1,4 +1,4 @@
-# @loopback4/example-todo-jwt with database [MongoDB]
+# @loopback4/example-todo-jwt with database [Postgres]
 
 ## Overview
 
