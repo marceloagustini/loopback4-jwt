@@ -1876,14 +1876,9 @@
         "signature": "bff0b768749c06e496b82af1dae1079a1ba037f5ff15d65f45565089d62156a6",
         "affectsGlobalScope": false
       },
-      "./src/models/customuser.model.ts": {
-        "version": "3affe95ad851646d9a3f665c83394d21ff88aec3c0f2e6f8027c4af0bb98dd05",
-        "signature": "c0bb65b74f985df893d0fad6a09b646689ec2af0b87b13cabd53c7e3b3c03038",
-        "affectsGlobalScope": false
-      },
       "./src/models/index.ts": {
-        "version": "bfcef56f8fbcd351eae9db6db94b2a43d9506ffff5be624b55fc020c0e7556d6",
-        "signature": "796a86dd8f40dc74abdbd2a22fe9cc5ecc737e7b6a8950b44d148c356201eb2a",
+        "version": "3239a822ef0182547c65466b88b22f90330ae369ea8701e82486eed84cb2bb10",
+        "signature": "4bb30bc881aaa5f0532df9457e25909cb8c4c611ab304c0ddc13bb3cf4987284",
         "affectsGlobalScope": false
       },
       "./src/repositories/todo.repository.ts": {
@@ -5112,16 +5107,9 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/application.ts"
       ],
-      "./src/models/customuser.model.ts": [
-        "./node_modules/@loopback/authentication-jwt/dist/index.d.ts",
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./src/models/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/models/customuser.model.ts",
         "./src/models/todo.model.ts"
       ],
       "./src/models/todo.model.ts": [
@@ -8039,11 +8027,7 @@
         "./src/models/index.ts",
         "./src/repositories/index.ts"
       ],
-      "./src/models/customuser.model.ts": [
-        "./node_modules/@loopback/authentication-jwt/dist/index.d.ts"
-      ],
       "./src/models/index.ts": [
-        "./src/models/customuser.model.ts",
         "./src/models/todo.model.ts"
       ],
       "./src/models/todo.model.ts": [
@@ -8484,7 +8468,6 @@
       "./src/datasources/postgres.datasource.ts",
       "./src/index.ts",
       "./src/migrate.ts",
-      "./src/models/customuser.model.ts",
       "./src/models/index.ts",
       "./src/models/todo.model.ts",
       "./src/openapi-spec.ts",

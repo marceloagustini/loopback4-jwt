@@ -3,7 +3,7 @@
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
-import {authenticate, TokenService} from '@loopback/authentication';
+import { authenticate, TokenService } from '@loopback/authentication';
 import {
   Credentials,
   MyUserService,
@@ -12,11 +12,11 @@ import {
   UserRepository,
   UserServiceBindings,
 } from '@loopback/authentication-jwt';
-import {inject} from '@loopback/core';
-import {model, property, repository} from '@loopback/repository';
-import {get, getModelSchemaRef, post, requestBody} from '@loopback/rest';
-import {SecurityBindings, securityId, UserProfile} from '@loopback/security';
-import {genSalt, hash} from 'bcryptjs';
+import { inject } from '@loopback/core';
+import { model, property, repository } from '@loopback/repository';
+import { get, getModelSchemaRef, post, requestBody } from '@loopback/rest';
+import { SecurityBindings, securityId, UserProfile } from '@loopback/security';
+import { genSalt, hash } from 'bcryptjs';
 import _ from 'lodash';
 
 @model()
@@ -47,7 +47,7 @@ export const CredentialsRequestBody = {
   description: 'The input of login function',
   required: true,
   content: {
-    'application/json': {schema: CredentialsSchema},
+    'application/json': { schema: CredentialsSchema },
   },
 };
 
@@ -57,10 +57,10 @@ export class UserController {
     public jwtService: TokenService,
     @inject(UserServiceBindings.USER_SERVICE)
     public userService: MyUserService,
-    @inject(SecurityBindings.USER, {optional: true})
+    @inject(SecurityBindings.USER, { optional: true })
     public user: UserProfile,
     @repository(UserRepository) protected userRepository: UserRepository,
-  ) {}
+  ) { }
 
   @post('/users/login', {
     responses: {
@@ -83,7 +83,7 @@ export class UserController {
   })
   async login(
     @requestBody(CredentialsRequestBody) credentials: Credentials,
-  ): Promise<{token: string}> {
+  ): Promise<{ token: string }> {
     // ensure the user exists, and the password is correct
     const user = await this.userService.verifyCredentials(credentials);
     // convert a User object into a UserProfile object (reduced set of properties)
@@ -91,7 +91,7 @@ export class UserController {
 
     // create a JSON Web Token based on the user profile
     const token = await this.jwtService.generateToken(userProfile);
-    return {token};
+    return { token };
   }
 
   @authenticate('jwt')
@@ -143,7 +143,7 @@ export class UserController {
       _.omit(newUserRequest, 'password'),
     );
 
-    await this.userRepository.userCredentials(savedUser.id).create({password});
+    await this.userRepository.userCredentials(savedUser.id).create({ password });
 
     return savedUser;
   }
