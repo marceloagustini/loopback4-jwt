@@ -1,4 +1,6 @@
 # @loopback4/example-todo-jwt with database [Postgres]
+Modified for Postgres
+See dump for make SQL
 
 ## Overview
 
